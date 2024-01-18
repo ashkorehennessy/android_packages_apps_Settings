@@ -181,7 +181,6 @@ public class FaceEnrollIntroduction extends BiometricEnrollIntroduction {
         if (isFinishing()) {
             return;
         }
-    }
 
         // This path is an entry point for SetNewPasswordController, e.g.
         // adb shell am start -a android.app.action.SET_NEW_PASSWORD
